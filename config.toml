@@ -1,0 +1,5 @@
+baseURL = "https://postcognito.com/"
+languageCode = "en-us"
+title = "Postcognito"
+[params]
+  description = "Postcognito is a company that makes tools to augment human intelligence."
