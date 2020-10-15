@@ -9,21 +9,15 @@
   </div>
   <div class='fl w-100 w-50-ns ph2-ns ph5 avenir mb3'>
     <h1 class='athelas f-headline-l f1 f1-m tracked-tight dn db-ns'>Postco<span class='dark-red'>g</span>nito</h1>
-    <h2 class='f3'>
-      <a class='purple hover-near-black' href='https://commoncog.com'>Commoncog</a>
-    </h2>
-    <p class='f5 near-black measure'> Reading management system for knowledge workers. Stop forgetting what you read.</p>
-    <h2 class='f3' >
-      <a class='dark-pink hover-near-black' href='https://commoncog.com/blog/'>Commonplace</a>
-    </h2>
-    <p class='f5 near-black measure'> Blog about building career moats. Updates weekly. </p>
-    <h2 class='f3'>
-      <a class='red hover-near-black' href='https://managementforstartups.com'>Management For Startups</a>
-    </h2>
-    <p class='f5 near-black measure'>Learn to be a better manager, even when you don't have the time.</p>
+    <h2 class='f2'>Personal Data Protection Policy</h2>
+    <div class='measure-wide lh-copy'>
+    {{ .Content }}
+  </div>
+  <p class='bt pt3 b--silver'> <strong>Last Updated:</strong> {{ .Date.Format "2nd Jan 2006" }}</p>
     <p class='f5 mt5 light-silver i'>Tools that augment human intelligence</p>
     <p class='f6 silver i'>Postcognito Pte Ltd. &middot; made in <span class='red'><strong>&bullet;</strong></span> Singapore &middot; co reg no 201816525C &middot; <a class='silver' href='/pdpa/'>pdpa</a></p>
   </div>
   </section>
 </main>
 {{ end }}
+
